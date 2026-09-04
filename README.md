@@ -1,2 +1,10 @@
-# cn-l5-six-model-compare
-Six-model Chinese L5 pedagogical rewrite comparison across 60 Simplified and Traditional Chinese academic samples.
+# 中文 L5 六模型横向审阅
+
+独立的静态审阅站，比较六个模型在同一批中文学术文本上的 L5 认知补全重写效果。
+
+- 60 篇论文：简体 30 篇、繁体 30 篇
+- 每篇使用同一个 1024-token 原文段
+- 6 个模型、共 360 条完整输出
+- 支持语言、领域与标题筛选，左右键切换样本，深浅主题及卡片展开
+
+页面数据直接嵌入 `index.html`，不依赖后端或跨域请求。
